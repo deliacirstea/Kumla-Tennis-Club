@@ -1,0 +1,79 @@
+:root{
+    --alabaster: #e0e2dbff;
+    --timberwolf: #d2d4c8ff;
+    --ash-gray: #b8bdb5ff;
+    --spanish-gray: #889696ff;
+    --xanadu: #5f7470ff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+html{
+    box-sizing: border-box;
+    /* margin: 30px 50px; */
+    line-height: 1,4;
+    background-color: var(--timberwolf);
+    font-family: 'Halant', serif;
+}
+
+#wrapper{
+    margin: 70px auto;
+    width: 60%;
+    padding: 40px;
+    box-shadow: var(--shadow);
+    background-color:var(--spanish-gray);
+    border-radius: 5px;
+    display: grid;
+    /* grid-gap: 8px; */
+    color: aliceblue;
+   
+}
+
+h3,h1, p{
+    text-align:  center;
+    
+}
+
+h3,p{
+margin-top: auto;
+text-shadow: rgb(18, 19, 19) 1px 0 10px;
+
+}
+h1{
+    margin-top: 10%;
+    color: white;
+    text-shadow: rgb(18, 19, 19) 1px 0 10px;
+}
+div{
+    margin-top: 7%;
+}
+
+
+#btn{
+    
+    position: fixed; /* Fixed/sticky position */
+    bottom: 8px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */ 
+    outline: none; /* Remove outline */
+    color: rgb(159, 32, 32); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 16px; /* Some padding */
+    
+  }
+
+  #top-btn {
+   
+    
+    position: fixed; /* Fixed/sticky position */
+    bottom: 30px; /* Place the button at the bottom of the page */
+    left: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 13px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 15px; /* Increase font size */
+  
+}

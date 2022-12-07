@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="/css/members.css" />
+<link
+  href="https://fonts.googleapis.com/css2?family=Amethysta&family=Halant:wght@500&family=Satisfy&display=swap"
+  rel="stylesheet"
+/>
+<script
+  src="https://kit.fontawesome.com/d33ed2489a.js"
+  crossorigin="anonymous"
+></script>
+<title>Membership - Kumla Tennis</title>
+<header></header>
+<body>
+  <main id="main-holder">
+    <h1 id="signup-header">Become a member</h1>
+
+    <div id="signup-error-msg-holder">
+      <p id="signup-error-msg">All fields must be filled in!</p>
+    </div>
+
+    <form id="signup-form">
+      <label for="name">Name</label><br />
+      <input
+        type="text"
+        name="name"
+        id="name-field"
+        class="singup-form-field"
+        placeholder="name"
+        ;
+      />
+      <br />
+      <label for="phone">Phone</label><br />
+      <input
+        type="tel"
+        name="phone"
+        id="phone-field"
+        class="signup-form-field"
+        placeholder="011-134565"
+        pattern="[0-9]{5-15}"
+        ;
+      />
+      <br />
+      <label for="email">Mail</label>
+      <br />
+      <input
+        name="email"
+        id="email-field"
+        type="email"
+        required
+        placeholder="me@example.com"
+        ;
+      />
+      <br />
+      <label for="password">Password</label>
+      <br />
+      <input
+        type="password"
+        name="password"
+        id="password-field"
+        class="signup-form-field"
+        placeholder="password"
+        ;
+      />
+      <br />
+      <!-- <label for="city">Home City</label><br />
+      <input
+        type="text"
+        name="city"
+        id="city-field"
+        class="signup-form-field"
+        placeholder="city"
+        onblur="Validate(this)"
+        ;
+      /> -->
+
+      <br />
+      <button id="signupButton">Submit</button>
+    </form>
+    <a id="btn" href="/index.html"><i class="fa-solid fa-house fa-2x"></i></a>
+  </main>
+  <script defer src="/js/member.js"></script>
+  <style>
+    #signup-error-msg {
+      opacity: 0;
+    }
+  </style>
+</body>

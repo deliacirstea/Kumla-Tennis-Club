@@ -1,0 +1,73 @@
+:root{
+    --alabaster: #e0e2dbff;
+    --timberwolf: #d2d4c8ff;
+    --ash-gray: #b8bdb5ff;
+    --spanish-gray: #889696ff;
+    --xanadu: #5f7470ff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+html{
+    font-family: 'Halant', serif;
+    line-height: 2;
+    background-color: var(--alabaster);
+}
+/* Images */
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+.howTo {
+    width: 350px;   
+}
+
+.court-img{
+    width: 700px;  
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+    width: 50%;
+    padding: 8px;
+}
+
+p{
+    text-align: justify;
+}
+
+h2, h3, h4{
+    text-align: center;
+}
+#btn{
+    
+    position: fixed; /* Fixed/sticky position */
+    bottom: 8px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */ 
+    outline: none; /* Remove outline */
+    color: rgb(159, 32, 32); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 16px; /* Some padding */
+    
+  }
+
+  #top-btn {
+   
+    
+        position: fixed; /* Fixed/sticky position */
+        bottom: 30px; /* Place the button at the bottom of the page */
+        left: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: black;
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 13px; /* Some padding */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 15px; /* Increase font size */
+      
+  }

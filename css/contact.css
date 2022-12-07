@@ -1,0 +1,92 @@
+:root{
+    --alabaster: #e0e2dbff;
+    --timberwolf: #d2d4c8ff;
+    --ash-gray: #b8bdb5ff;
+    --spanish-gray: #889696ff;
+    --xanadu: #5f7470ff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+html{
+    box-sizing: border-box;
+    font-family: 'Halant', serif;
+    /* color: var(--xanadu); */
+    background-color: var(--xanadu);
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    width: 60%;
+    margin: 50px auto;
+    
+}
+
+
+
+/* Home buton */
+#btn{
+    
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */ 
+    outline: none; /* Remove outline */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    
+  }
+  /* icons */
+  .fa-solid {
+    color: black;
+    margin-top: 5%;
+    align-items: center;
+    /* position: fixed; */
+  left: 30%;
+  display: block;
+  margin: 7px 7px 7px 7px;
+  text-decoration: none;
+  }
+
+  .text {
+    size: 10%;
+    text-align: right;
+  }
+
+  p{ margin-left: 10%;
+    float: left;
+    font-size: 1.3rem;
+    /* font-weight: bold; */
+    color: white;
+    font-family: 'Halant', serif;
+    
+  }
+/* Containers */
+.home-container{
+background-color: var(--ash-gray);
+}
+
+.phone-container{
+background-color: var(--spanish-gray);
+}
+
+.mail-container{
+background-color: var(--timberwolf);
+}
+
+  .map-container {
+    max-width: 100%;
+    margin-top: 15%;
+   
+  }
+
+  /* .fa-at{
+    text-decoration: none;
+  } */
+
+  .email {
+    margin-left: 15%;
+  }

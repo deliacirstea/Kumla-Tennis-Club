@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amethysta&family=Halant:wght@500&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/login.css" />
+    <script
+      src="https://kit.fontawesome.com/d33ed2489a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <main id="main-holder">
+      <h1 id="login-header">Login</h1>
+
+      <!-- <div id="login-error-msg-holder">
+        <p id="login-error-msg">
+          Invalid username
+          <span id="error-msg-second-line">and/or password</span>
+        </p>
+      </div> -->
+
+      <form id="login-form">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          name="name"
+          id="name-field"
+          class="login-form-field"
+          placeholder="Username"
+        />
+        <label for="password">Password</label>
+        <input
+          type="password"
+          name="password"
+          id="password-field"
+          class="login-form-field"
+          placeholder="Password"
+        />
+        <button id="loginButton">Login</button>
+        <p>Not a member yet?</p>
+        <a class="btn" href="/html/members.html">Become a member</a>
+      </form>
+      <a id="btn" href="/index.html"><i class="fa-solid fa-house fa-2x"></i></a>
+    </main>
+
+    <script src="/js/login.js"></script>
+  </body>
+</html>
