@@ -1,3 +1,4 @@
+//read more function
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -110,7 +111,7 @@ function myFunction() {
     }
   }
 
-  // Get the button:
+ //Function for go to the top 
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button

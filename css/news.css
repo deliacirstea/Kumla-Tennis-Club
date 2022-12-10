@@ -1,30 +1,28 @@
 :root{
-    --dark-sea-green: #94ae89ff;
---laurel-green: #a8bca1ff;
---yellow-green-crayola: #c0da74ff;
---granny-smith-apple: #beedaaff;
---aero-blue: #d5ffd9ff;
+    --alabaster: #e0e2dbff;
+    --timberwolf: #d2d4c8ff;
+    --ash-gray: #b8bdb5ff;
+    --spanish-gray: #889696ff;
+    --xanadu: #5f7470ff;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
 html { box-sizing: border-box;
     line-height: 2.5rem;
-    background-color: white;
+    background-color: var(--xanadu);
+    color: #2F4F4F;
 }
 p {
     margin: 0;
     font-family: 'Halant', serif;
 }
 .wrapper {
-    /* display: grid; */
-    /* grid-gap: 20px; */
-    /* justify-content: center; */
-    /* align-items: center; */
+   
     margin: 70px auto;
     width: 60%;
     padding: 8px;
     box-shadow: var(--shadow);
-    background-color: antiquewhite;
+    background-color: var(--alabaster);
     border-radius: 5px;
     
 }
@@ -42,17 +40,14 @@ img {
 }
 h2{
     text-align: center;
+    text-shadow: 1px 1px 2px pink;
 }
 #container-one{
     border-radius: 10px;
-    background-color: var(--yellow-green-crayola);
+    background-color: var(--ash-gray);
     
 }
 .jack{
-    /* float:inline-end;
-    /* padding: 0 10px 0 0 ; */
-    /* float: left; */
-   
     border: rgb(17, 17, 16);
     width: 25%;
     border-radius: 2%;
@@ -64,38 +59,39 @@ h2{
     display: flexbox;
 }
 #more {display: none;}
+
 #container-two{
     border-radius: 10px;
-    background-color: var(--aero-blue);
+    background-color: var(--spanish-gray);
 }
 
 #expand {display: none;}
 
 #container-three{
     border-radius: 10px;
-    background-color: var(--yellow-green-crayola);
+    background-color: var(--ash-gray);
 }
 #seemore{display: none;}
 #container-four{
     border-radius: 10px;
-    background-color: var(--aero-blue);
+    background-color: var(--spanish-gray);
 }
 #open{display: none;}
 
 #container-five{
     border-radius: 10px;
-    background-color: var(--yellow-green-crayola);
+    background-color: var(--ash-gray);
 
 }
 #more2 {display: none;}
 #container-six{
     border-radius: 10px;
-    background-color: var(--aero-blue);
+    background-color: var(--spanish-gray);
 }
 #more3 {display: none;}
 #container-seven{
     border-radius: 10px;
-    background-color: var(--yellow-green-crayola);
+    background-color: var(--ash-gray);
 }
 
 #more4 {display: none;}
@@ -103,44 +99,45 @@ h2{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  /* width: 70%; */
+ 
 }
 .readMore{
     border-radius: 10px;
-    background-color: whitesmoke;
+    background-color:var(--timberwolf);
     margin-left: 60%;
+    color: white;
+    border: 1px;
 }
 .readMore:hover{
     background-color: gray;
 }
 
 #btn{
-    
-    position: fixed; /* Fixed/sticky position */
-    bottom: 8px; /* Place the button at the bottom of the page */
-    right: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */ 
-    outline: none; /* Remove outline */
-    color: rgb(159, 32, 32); /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 16px; /* Some padding */
+    position: fixed; 
+    bottom: 8px; 
+    right: 30px; 
+    z-index: 99; 
+    outline: none; 
+    color:white;
+    cursor: pointer; 
+    padding: 16px; 
     
   }
-
+footer{
+    text-align: center;
+}
   #top-btn {
-   
-    
-    position: fixed; /* Fixed/sticky position */
-    bottom: 30px; /* Place the button at the bottom of the page */
-    left: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-color: black;
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 13px; /* Some padding */
-    border-radius: 10px; /* Rounded corners */
-    font-size: 15px; /* Increase font size */
-  
+    position: fixed; 
+    bottom: 30px; 
+    left: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: white;
+    color: var(--spanish-gray); 
+    cursor: pointer; 
+    padding: 13px; 
+    border-radius: 10px; 
+    font-size: 15px; 
+
 }

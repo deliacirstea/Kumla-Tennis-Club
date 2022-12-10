@@ -26,7 +26,7 @@ body{
 
 .btn{
     background-color: var(--ash-gray);
-    color: var(--light);
+    color: var(--xanadu);
     padding: 0.6rem 1.3rem;
     text-decoration: none;
     border: 0;
@@ -34,8 +34,8 @@ body{
 
 }
 .btn:hover {
-    background: var(--dark);
-    color: var(--light);
+    background: lightgrey;
+    color: var(--shadow);
 }
 
 img{
@@ -106,6 +106,7 @@ img{
     margin-bottom: 0;
     color: var(--timberwolf);
     border-radius: 20px;
+    text-shadow: rgb(12, 12, 12) 1px 0 10px;
     
 }
 
@@ -114,11 +115,13 @@ img{
     margin-top: 0;
     color: var(--timberwolf);
     border-radius: 20px;
+    text-shadow: rgb(12, 12, 12) 1px 0 10px;
 }
 
 /* Top box */
 .top-box {
-    background: var(--spanish-gray);
+    /* background: var(--spanish-gray); */
+    background: var(--alabaster);
     display: grid;
     align-items: center;
     justify-items: center;
@@ -128,7 +131,7 @@ img{
 }
 
 .top-box .price {
-    font-size: 2.5rem;
+    font-size: 2.4rem;
 }
 
 .top-box-a {

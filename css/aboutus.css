@@ -11,13 +11,16 @@ html {
     line-height: 2.2;
     background-color: var(--timberwolf);
     font-family: 'Satisfy', cursive;
+    color: var(--xanadu);
     
 }
 p {font-size: larger;
     margin: 0;
    
 }
- 
+ footer{
+    text-align: center;
+ }
 h1  {
      /* margin-bottom: 0; */
     background-color: var(--dark-sea-green);
@@ -95,29 +98,29 @@ h2 {margin-bottom: 0;
 
 #btn{
     
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: black;
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: none;
+  outline: none; 
+  background-color:var(--xanadu);
+  color: var(--alabaster); 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
 }
 
 #homebtn{
     
-    position: fixed; /* Fixed/sticky position */
-    bottom: 0px; /* Place the button at the bottom of the page */
-    left: 30px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */ 
-    outline: none; /* Remove outline */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 16px; /* Some padding */
+    position: fixed; 
+    bottom: 0px; 
+    left: 30px; 
+    z-index: 99;  
+    outline: none; 
+    color: var(--xanadu); 
+    cursor: pointer;
+    padding: 16px; 
     
   }

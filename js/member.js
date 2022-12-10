@@ -29,10 +29,4 @@ loginButton.addEventListener("click", (e) => {
 
 })
 
-// function Validate(control){
-//     console.log("test");
-//     if (control.value === ""){
-//         alert("Field must be filled in!");
-//     }
-// }
 

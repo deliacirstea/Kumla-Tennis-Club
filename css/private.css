@@ -1,8 +1,5 @@
 
-/* img {
-    max-width: 100%;
-    height: auto; 
-} */
+
 :root{
     --alabaster: #e0e2dbff;
     --timberwolf: #d2d4c8ff;
@@ -15,19 +12,20 @@
 html{
     box-sizing: border-box;
     height: 100%;
-    font-family: 'Halant', serif;
+    font-family: 'Amethysta', serif;
     line-height: 2rem;
     background-color:white;
-    background-image: url(/images/7.jpg);
+    /* background-image: url(/images/7.jpg); */
     background-repeat: no-repeat;
     background-size: cover;
-   
-    
+    background-image: linear-gradient(rgba(150, 191, 202, 0.3), rgba(30, 30, 20, 0.7)),
+    url("/images/7.jpg");
 }
 
 #bg-img{
     color: white;
     margin: auto;
+    text-shadow: rgb(15, 15, 15) 1px 0 10px;
 }
 
 body{
@@ -103,50 +101,41 @@ ul {
     
 }
 
-
 /* h1{
     color: var(--xanadu);
     text-shadow: rgb(149, 14, 14);
     text-decoration: double;
 } */
 
-.btn {
-    
+     .btn {
         background: #5fa477;
-        /* background-image: -webkit-linear-gradient(top, #3498db, #2980b9); */
-        /* background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-        background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-        background-image: -o-linear-gradient(top, #3498db, #2980b9);
-        background-image: linear-gradient(to bottom, #3498db, #2980b9); */
-        /* -webkit-border-radius: 28; */
-        /* -moz-border-radius: 28; */
         border-radius: 28px;
         font-family: 'Halant', serif;
         color: #ffffff;
-        font-size: 20px;
-        padding: 3px 9px 6px 9px;
+        font-size: 18px;
+        padding: 2px 6px 2px 6px;
         text-decoration: none;
         margin-left: 15%;
-
       }
       
       .btn:hover {
         background: #8b8e84;
-        /* background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-        background-image: linear-gradient(to bottom, #3cb0fd, #3498db); */
+        
         text-decoration: none;
       }
 
       #home-button{
-        position: fixed; /* Fixed/sticky position */
-        bottom: 8px; /* Place the button at the bottom of the page */
-        right: 30px; /* Place the button 30px from the right */
-        z-index: 99; /* Make sure it does not overlap */ 
-        outline: none; /* Remove outline */
-        color: rgb(242, 235, 235); /* Text color */
-        cursor: pointer; /* Add a mouse pointer on hover */
-        padding: 16px; /* Some padding */
+        position: fixed; 
+        bottom: 8px; 
+        right: 30px; 
+        z-index: 99; 
+        outline: none; 
+        color: rgb(242, 235, 235); 
+        cursor: pointer; 
+        padding: 16px; 
+      }
+      
+      footer{
+        color: var(--alabaster);
+        text-align: center;
       }

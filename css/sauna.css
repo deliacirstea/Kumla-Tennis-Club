@@ -6,7 +6,7 @@
    margin: 0;
 }
 html{
-    /* background-image: url(/images/1.jpg); */
+    
     max-width: 100%;
     background-size: cover;
     background-position: center;
@@ -113,13 +113,19 @@ form input[type=submit]:hover{
 
 #btn{
     
-    position: fixed; /* Fixed/sticky position */
-    bottom: 8px; /* Place the button at the bottom of the page */
-    right: 10px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */ 
-    outline: none; /* Remove outline */
-    color:white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding: 16px; /* Some padding */
+    position: fixed; 
+    bottom: 8px; 
+    right: 10px; 
+    z-index: 99; 
+    outline: none; 
+    color:white; 
+    cursor: pointer; 
+    padding: 16px; 
     
+  }
+
+  .dg{
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
   }

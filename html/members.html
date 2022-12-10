@@ -1,23 +1,35 @@
+<!-- css link -->
 <link rel="stylesheet" href="/css/members.css" />
+<!-- google fonts link -->
 <link
   href="https://fonts.googleapis.com/css2?family=Amethysta&family=Halant:wght@500&family=Satisfy&display=swap"
   rel="stylesheet"
 />
+<!-- favicon path -->
+<link
+  rel="icon"
+  type="image/png"
+  sizes="16x16"
+  href="/favicon_io/favicon-32x32.png"
+/>
+<!-- icon link -->
 <script
   src="https://kit.fontawesome.com/d33ed2489a.js"
   crossorigin="anonymous"
 ></script>
+
 <title>Membership - Kumla Tennis</title>
-<header></header>
+
 <body>
   <main id="main-holder">
     <h1 id="signup-header">Become a member</h1>
-
+    <!-- Error message -->
     <div id="signup-error-msg-holder">
       <p id="signup-error-msg">All fields must be filled in!</p>
     </div>
 
     <form id="signup-form">
+      <!-- Name field -->
       <label for="name">Name</label><br />
       <input
         type="text"
@@ -28,6 +40,8 @@
         ;
       />
       <br />
+
+      <!-- Phone field -->
       <label for="phone">Phone</label><br />
       <input
         type="tel"
@@ -39,6 +53,8 @@
         ;
       />
       <br />
+
+      <!-- Email field -->
       <label for="email">Mail</label>
       <br />
       <input
@@ -50,6 +66,8 @@
         ;
       />
       <br />
+
+      <!-- Password field -->
       <label for="password">Password</label>
       <br />
       <input
@@ -61,22 +79,13 @@
         ;
       />
       <br />
-      <!-- <label for="city">Home City</label><br />
-      <input
-        type="text"
-        name="city"
-        id="city-field"
-        class="signup-form-field"
-        placeholder="city"
-        onblur="Validate(this)"
-        ;
-      /> -->
-
-      <br />
+      <!-- Sign up button -->
       <button id="signupButton">Submit</button>
     </form>
+    <!-- Home button -->
     <a id="btn" href="/index.html"><i class="fa-solid fa-house fa-2x"></i></a>
   </main>
+  <!-- Js link -->
   <script defer src="/js/member.js"></script>
   <style>
     #signup-error-msg {

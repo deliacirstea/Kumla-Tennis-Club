@@ -4,11 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <!-- google fonts link -->
     <link
       href="https://fonts.googleapis.com/css2?family=Amethysta&family=Halant:wght@500&family=Satisfy&display=swap"
       rel="stylesheet"
     />
+    <!-- favicon path -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/favicon_io/favicon-32x32.png"
+    />
+    <!-- css link -->
     <link rel="stylesheet" href="/css/login.css" />
+    <!-- icon link -->
     <script
       src="https://kit.fontawesome.com/d33ed2489a.js"
       crossorigin="anonymous"
@@ -19,14 +29,9 @@
     <main id="main-holder">
       <h1 id="login-header">Login</h1>
 
-      <!-- <div id="login-error-msg-holder">
-        <p id="login-error-msg">
-          Invalid username
-          <span id="error-msg-second-line">and/or password</span>
-        </p>
-      </div> -->
-
+      <!-- Login form -->
       <form id="login-form">
+        <!-- Name field -->
         <label for="name">Name</label>
         <input
           type="text"
@@ -35,6 +40,7 @@
           class="login-form-field"
           placeholder="Username"
         />
+        <!-- Password field -->
         <label for="password">Password</label>
         <input
           type="password"
@@ -44,12 +50,15 @@
           placeholder="Password"
         />
         <button id="loginButton">Login</button>
+        <!-- Membership  -->
         <p>Not a member yet?</p>
+        <!-- redirect link to membership -->
         <a class="btn" href="/html/members.html">Become a member</a>
       </form>
+      <!-- Home button -->
       <a id="btn" href="/index.html"><i class="fa-solid fa-house fa-2x"></i></a>
     </main>
-
+    <!-- Js file -->
     <script src="/js/login.js"></script>
   </body>
 </html>
